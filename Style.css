@@ -15,28 +15,28 @@ header{
 form{
     display: block;
     margin-top: 10px;
-    height: 360px;
+    height: auto;
 }
 
 .name {
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     border-color: white;
     opacity: 80%;
 }
 
 .password {
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     border-color: white;
     opacity: 90%;
 }
 
 .repassword {
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     border-color: white;
-    opacity: 90%;
+    opacity: 80%;
 }
 
 
@@ -50,10 +50,12 @@ form{
     padding: 10px;
     margin-bottom: 15px;
     margin-top: 10px;
+    opacity: 70%;
 }
 
 .btlogin:hover {
-    background-color: rgb(228, 120, 120)
+    background-color: rgb(228, 120, 120);
+    opacity: 100%;
 }
 
 

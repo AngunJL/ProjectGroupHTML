@@ -1,6 +1,6 @@
 body {
     background-color: #80b9e1;
-    background-image: url("img/alone-sunset-city-scenery-digital-art-4k-wallpaper-uhdpaper.com-435@5@c.jpg");
+    background-image: url("img/background1.jpg");
     background-size: 2560px
 }   
 header{
@@ -72,3 +72,6 @@ form{
     transition: all 0.3s ease;
 }
 
+.change_BG{
+   
+}

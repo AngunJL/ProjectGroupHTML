@@ -3,26 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Signup</title>
     <link rel = "stylesheet" type = "text/css" href="Style.css">
     <script src = "script.js"></script>
 <body>
     <div class="wrapper" style="align-items: center;">
+        <div class ="change_BG">
+           <fieldset>
+            <label for="theme"></label>
+            <input id="bg1" type="radio" name="theme" checked>
+            <label for="theme"></label>
+            <input id="bg2" type="radio" name="theme">
+            <label for="theme"></label>
+            <input id="bg3" type="radio" name="theme">
+           </fieldset>
+        </div>
     <header><b>Signup</b></header>
     <form action="#">
         <div class="username">
             <input class ="name" type="text" value="" placeholder="Username" id="username" name="username">
         </div>
-        <div class="password"> 
+        <div class="password" > 
             <input class="password" type="password" placeholder="Password" id="password" name="password">
         </div>
-            <input class="repassword" type="repassword" placeholder="repassword" id="repassword" name="repassword">
-        <div class="linking">
-            <button class = "btlogin">Signup</button><br>
-            <p>Have a account? <a href="./login form.html">Login</a></p>
+        <div class="repassword">
+            <input class="repassword" type="password" placeholder="repassword" id="repassword" name="repassword">
         </div>
-        
+        <div class="linking">
+            <button class = "btlogin" onclick="Login()">Signup</button><br>
+            <p style="color: white;">Have a account? <a href="./login form.html">LOGIN</a></p>  
+        </div>
+
     </form>
-    </div>      
+    </div>    
 </body>
 </html>

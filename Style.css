@@ -1,15 +1,11 @@
-body {
-    background-color: #80b9e1;
-    background-image: url("img/background1.jpg");
-    background-size: 2560px
-}   
+   
 header{
     color: rgb(255, 255, 255);
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100px;
     text-align: center;
     display: block;
-    margin-top: 75px;
+    margin-top: 55px;
 }
 
 form{
@@ -46,6 +42,7 @@ form{
 
 .btlogin {
     font-size: 20px;
+    border: 20px;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 15px;
@@ -72,6 +69,45 @@ form{
     transition: all 0.3s ease;
 }
 
-.change_BG{
-   
+fieldset {
+    border: 0;
+    display: flex;
+    float: right;
+    gap:10px;
+}
+
+.change_BG input[type = "radio"]{
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    outline: 2px solid white;
+    outline-offset: 3px;
+    border-radius: 50%;
+}
+
+.change_BG input[type = "radio"]#bg1:checked{
+    background-color: purple;
+}
+
+:root:has(#bg1:checked){
+    background-image: url("img/background1.jpg");
+    background-size: 2560px
+}
+
+.change_BG input[type = "radio"]#bg2:checked{
+    background-color: darkblue;
+}
+
+:root:has(#bg2:checked){
+    background-image: url(img/background2.jpg);
+    background-size: 2560px;
+}
+
+.change_BG input[type = "radio"]#bg3:checked{
+    background-color: yellow;
+}
+
+:root:has(#bg3:checked){
+    background-image: url(img/background3.jpg);
+    background-size: 2560px;
 }

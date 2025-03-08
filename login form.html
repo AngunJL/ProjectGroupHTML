@@ -9,7 +9,14 @@
 <body>
     <div class="wrapper" style="align-items: center;">
         <div class ="change_BG">
-            <img src="./img/iconBG1.jpg" alt="background_1">
+           <fieldset>
+            <label for="theme"></label>
+            <input id="bg1" type="radio" name="theme" checked>
+            <label for="theme"></label>
+            <input id="bg2" type="radio" name="theme">
+            <label for="theme"></label>
+            <input id="bg3" type="radio" name="theme">
+           </fieldset>
         </div>
     <header><b>Login</b></header>
     <form action="#">
@@ -21,7 +28,7 @@
         </div>
         <div class="linking">
             <button class = "btlogin" onclick="Login()">Login</button><br>
-            <p>Don't have account? <a href="./register.html">Register</a></p>  
+            <p style="color: white;">Don't have account? <a href="./register.html">Register</a></p>  
         </div>
 
     </form>

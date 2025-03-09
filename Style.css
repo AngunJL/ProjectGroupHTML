@@ -1,4 +1,4 @@
-   
+
 header{
     color: rgb(255, 255, 255);
     font-family: Calibri, 'Trebuchet MS', sans-serif;
@@ -12,6 +12,11 @@ form{
     display: block;
     margin-top: 10px;
     height: auto;
+    padding-top: 0;
+    padding-bottom: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+    object-fit: cover;
 }
 
 .name {
@@ -42,6 +47,7 @@ form{
 
 .btlogin {
     font-size: 20px;
+    width: 100px;
     border: 20px;
     border-radius: 10px;
     padding: 10px;
@@ -58,7 +64,7 @@ form{
 
 .wrapper {
     margin: 100px auto;
-    width: 400px;
+   width: fit-content;
     border-radius: 15px;
     padding: 10px;
     text-align: center;
